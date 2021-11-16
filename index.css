@@ -68,6 +68,22 @@ line-height: 145.7%;
 
 }
 
+.source-sans-48 {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 60px;
+}
+
+.source-sans-68 {
+  font-family: Source Sans Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 68px;
+line-height: 85px;
+}
+
 .cabinet-grotesk-16 {
   font-family: Cabinet Grotesk;
   font-style: normal;
@@ -105,6 +121,10 @@ line-height: 145.7%;
 
 .orange-bgcolor {
 background: #F58229;
+}
+
+.grey-color {
+  color: gray;
 }
 
 .orange-color {
@@ -160,6 +180,7 @@ background: #F58229;
   height: 240px;
   width: 360px !important;
 }
+
 
 .what-we-do-col {
   padding-left: 130px;
@@ -354,7 +375,7 @@ background: #F58229;
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-size: 14px;
-    font-weight: 800;
+    /* font-weight: 800; */
     /* text-align: center; */
   }
 
@@ -388,6 +409,8 @@ background: #F58229;
     text-align: center;
     padding-top: 25px !important;
   }
+
+ 
 
   .font-sm-10 {
     font-family: 'Cabinet Grotesk', sans-serif;
@@ -443,6 +466,14 @@ background: #F58229;
     line-height: 40px;
     text-align: center;
     letter-spacing: 0.01em;
+  }
+
+  .source-sans-34 {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 60px;
   }
 
   .row-size {
@@ -508,4 +539,60 @@ background: #F58229;
   .what-we-do-col {
     padding-left: 0px !important;
   }
+
+  .who-are-we-img {
+    height: auto;
+    width: 300px;
+
+  }
+
+  .focus-area-img {
+    height: 240px !important;
+    width: 240px !important;
+  }
+
+  /* .focus-area-col-2 {
+    background-image: url("img/Frame 6.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 240px;
+    width: 240px !important;
+  }
+
+  .focus-area-col-3 {
+    background-image: url("img/Rectangle 7 (3).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 240px;
+    width: 240px !important;
+  }
+
+  .focus-area-col-4 {
+    background-image: url("img/Frame 8.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 240px;
+    width: 240px !important;
+  }
+
+  .focus-area-col-5 {
+    background-image: url("img/Frame 9.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 240px;
+    width: 240px !important;
+  }
+
+  .focus-area-col-6 {
+    background-image: url("img/Frame 10.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 240px;
+    width: 240px !important;
+  } */
+
+  /* .fade-orange-box {
+    background-color: #f8ece2;
+    height: auto;
+  } */
 }
