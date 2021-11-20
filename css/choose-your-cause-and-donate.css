@@ -1,0 +1,9 @@
+.bg-pic {
+  background-image: url("img/Image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 680px;
+  width: 1320px !important;
+}
+
+

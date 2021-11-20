@@ -388,7 +388,11 @@ background: #F58229;
   }
 
   .margin-none {
-    margin: -20px;
+    margin-left: -20px;
+  }
+
+  .padding-none {
+    padding: -20px;
   }
 
   .source-sans-22 {
@@ -400,13 +404,13 @@ background: #F58229;
     text-align: center;
   }
 
-  .source-sans-40 {
+  .source-sans-45 {
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 40px;
     line-height: 50px;
-    text-align: center;
+    /* text-align: center; */
     padding-top: 25px !important;
   }
 
@@ -549,6 +553,14 @@ background: #F58229;
   .focus-area-img {
     height: 240px !important;
     width: 240px !important;
+  }
+
+  .bg-pic-one {
+    background-image: url("img/Group 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 680px;
+    width: 1320px !important;
   }
 
   /* .focus-area-col-2 {

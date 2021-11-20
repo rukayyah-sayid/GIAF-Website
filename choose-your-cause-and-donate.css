@@ -1,0 +1,61 @@
+@import url("https://api.fontshare.com/css?f[]=cabinet-grotesk@400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Source+Sans+Pro:wght@200;600&display=swap');
+
+
+.bg-pic-copy {
+  background-image: linear-gradient(#5a3101ad,#5a3101ad), url('img/kids.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 680px;
+  width: 1320px !important;
+}
+
+.source-sans-25 {
+  font-family: Source Sans Pro;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 25px;
+}
+
+.card-img-1 {
+  background-image: url("img/Rectangle 7 (7).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 246px;
+  width: 380px !important;
+  margin: 0px !important;
+}
+
+/* PROGRESS BAR STYLING */
+.progress {
+  /* width: 300px; */
+  height: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+.bg-pic-copy {
+  background-image: linear-gradient(#5a3101ad,#5a3101ad), url('img/kids.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 360px !important;
+  width: 360px !important;
+  margin-left: -15px;
+  }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .bg-pic-copy {
+      background-image: linear-gradient(#5a3101ad,#5a3101ad), url('img/kids.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 630px !important;
+      width: 810px !important;
+      margin-left: -15px;
+      }
+}
