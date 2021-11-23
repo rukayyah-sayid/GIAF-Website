@@ -8,7 +8,7 @@
   /* BADGE STYLING */
 .badge {
   position: absolute;
-  margin-top: -50px !important;
+  margin-top: -30px !important;
   z-index: 100;
 }
 
@@ -27,6 +27,10 @@
         position: absolute;
         margin-top: -30px !important;
         z-index: 100;
+      }
+
+      .ml-5 {
+        margin-left: 20px !important;
       }
 }
 

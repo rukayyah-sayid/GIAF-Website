@@ -8,7 +8,7 @@
   background-image: linear-gradient(#5a3101ad,#5a3101ad), url('img/kids.png');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 680px;
+  height: 550px !important;
 }
 
 .source-sans-25 {
