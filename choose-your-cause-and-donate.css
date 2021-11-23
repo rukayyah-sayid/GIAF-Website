@@ -9,7 +9,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 680px;
-  width: 1320px !important;
 }
 
 .source-sans-25 {
@@ -31,7 +30,6 @@ line-height: 25px;
 
 /* PROGRESS BAR STYLING */
 .progress {
-  /* width: 300px; */
   height: 8px;
 }
 
@@ -41,8 +39,6 @@ line-height: 25px;
   background-size: cover;
   background-repeat: no-repeat;
   height: 360px !important;
-  width: 360px !important;
-  margin-left: -15px;
   }
 }
 
@@ -55,7 +51,5 @@ line-height: 25px;
       background-size: cover;
       background-repeat: no-repeat;
       height: 630px !important;
-      width: 810px !important;
-      margin-left: -15px;
       }
 }

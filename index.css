@@ -23,6 +23,22 @@
   text-align: center;
 }
 
+.source-sans-16 {
+  font-family: Source Sans Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 27px;
+}
+
+.source-sans-18 {
+  font-family: Source Sans Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+}
+
 .source-sans-22 {
   font-family: Source Sans Pro;
   font-style: normal;
@@ -50,12 +66,13 @@
   text-align: center;
 }
 
-.source-sans-16 {
+.source-sans-28 {
   font-family: Source Sans Pro;
-font-style: normal;
-font-weight: normal;
-font-size: 17px;
-line-height: 145.7%;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 20px;
+  text-align: center;
 }
 
 .source-sans-44 {
@@ -92,15 +109,6 @@ line-height: 85px;
   line-height: 20px;
 }
 
-/* .cabinet-grotesk-19 {
-  font-family: Cabinet Grotesk;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 19px;
-  line-height: 20px;
-} */
-
-
 .cabinet-grotesk-32 {
   font-family: Cabinet Grotesk;
   font-style: normal;
@@ -118,6 +126,8 @@ line-height: 85px;
   text-align: center;
   letter-spacing: 0.01em;
 }
+
+/* COLORS */
 
 .orange-bgcolor {
 background: #F58229;
@@ -141,54 +151,61 @@ background: #F58229;
     background-color: #000;
   }
 
+  /* NAVBAR */
+
+  .nav-link:focus, .nav-link:active, .nav-link:hover {
+    color:#F58229 !important;
+    border-bottom: 2px #F58229 solid;
+ }
+
+ .navbar-nav > .active > a { 
+    color: #F58229 ; 
+}
+
+/* BACKGROUND IMAGE */
+
 .bg-pic {
   background-image: url("img/Group 1.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 680px;
-  width: 1320px !important;
+  /* width: 1320px !important; */
 }
 
 .bg-pic-heading {
   margin-top: 100px;
 }
 
-.row-size {
-  width: 1200px;
-}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .bg-pic {
+      background-image: linear-gradient(#5a3101ad,#5a3101ad), url('img/Group 1.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 550px !important;
+      }
 
-.featured-col-1 {
-  background-image: url("img/Rectangle 7.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 240px;
-  width: 360px !important;
-}
+      .source-sans-md-70 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 70px;
+        line-height: 80px;
+        text-align: center;
+      }
 
-.featured-col-2 {
-  background-image: url("img/Rectangle 7 (1).png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 240px;
-  width: 360px !important;
-}
-
-.featured-col-3 {
-  background-image: url("img/Rectangle 7 (2).png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 240px;
-  width: 360px !important;
-}
-
-
-.what-we-do-col {
-  padding-left: 130px;
+      .image {
+        width: 50px;
+        height: 50px;
+      }
 }
 
 
 @media only screen and (max-width: 600px) {
 
+  /* MARGIN */
   .mt-1 {
     margin-top: 3px !important;
   }
@@ -268,6 +285,8 @@ background: #F58229;
   .mb-5 {
     margin-bottom: 15px !important;
   }
+
+  /* PADDING */
 
   .pl-1 {
     padding-left: 3px !important;
@@ -349,34 +368,42 @@ background: #F58229;
     padding-bottom: 15px !important;
   }
 
-
+  /* BACKGROUND IMAGE */
   .bg-pic {
     background-image: url("img/Group 1.png");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 300px !important;
-    width: 360px !important;
-    margin-left: -15px !important;
+    height: 340px !important;
   }
 
   .bg-pic-heading {
     margin-top: 0px;
   }
 
+  /* FONT STYLE */
+  .source-sans-sm-12 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+  }
+
   .source-sans-12 {
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-size: 12px;
-    /* font-weight: 800; */
-    text-align: left !important;
   }
 
   .source-sans-14 {
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-size: 14px;
-    /* font-weight: 800; */
-    /* text-align: center; */
+    line-height: -20px !important;
+  }
+
+  .source-sans-sm-16 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-size: 16px;
   }
 
 
@@ -384,7 +411,6 @@ background: #F58229;
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-size: 20px;
-    /* text-align: center; */
   }
 
   .margin-none {
@@ -392,16 +418,24 @@ background: #F58229;
   }
 
   .padding-none {
-    padding: -20px;
+    padding: -20px !important;
   }
 
-  .source-sans-22 {
+  .source-sans-sm-22 {
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-size: 22px;
     font-weight: 900;
     line-height: 28px;
-    text-align: center;
+  }
+
+  .source-sans-sm-45 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+    padding-top: 25px !important;
   }
 
   .source-sans-45 {
@@ -410,11 +444,7 @@ background: #F58229;
     font-weight: 900;
     font-size: 40px;
     line-height: 50px;
-    /* text-align: center; */
-    padding-top: 25px !important;
   }
-
- 
 
   .font-sm-10 {
     font-family: 'Cabinet Grotesk', sans-serif;
@@ -440,7 +470,7 @@ background: #F58229;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 20px;
+    /* line-height: 10px; */
   }
 
   .font-sm-16 {
@@ -449,7 +479,7 @@ background: #F58229;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 20px;
+    /* line-height: 20px; */
   }
 
   .font-sm-20 {
@@ -472,6 +502,14 @@ background: #F58229;
     letter-spacing: 0.01em;
   }
 
+  .source-sans-sm-30 {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+  }
+
   .source-sans-34 {
     font-family: Source Sans Pro;
     font-style: normal;
@@ -480,9 +518,24 @@ background: #F58229;
     line-height: 60px;
   }
 
-  .row-size {
-    width: 300px;
+  .source-sans-40 {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 60px;
   }
+
+  /* NAVBAR */
+
+  .nav-link:focus, .nav-link:active, .nav-link:hover {
+    display: none;
+ }
+
+ .navbar-nav > .active > a { 
+    display: none; 
+}
+  
   .parent-row {
     padding-left: 35px;
   }
@@ -501,53 +554,14 @@ background: #F58229;
     margin: 0px !important;
     padding: 0px !important;  
   }
-  .featured-col-1 {
-    background-image: url("img/Rectangle 7.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 200px;
-    width: 230px !important;
-  }
-
-  .featured-col-2 {
-    background-image: url("img/Rectangle 7 (1).png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 200px;
-    width: 230px !important;
-  }
-
-  .featured-col-3 {
-    background-image: url("img/Rectangle 7 (2).png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 200px;
-    width: 240px !important;
-  }
 
   .center-align {
     margin: 0px auto !important;
     text-align: center !important;
   }
 
-  .who-are-we-img {
-    height: auto; 
-    width: 230px;
-  }
-
-  .what-we-do-img {
-    height: auto; 
-    width: 230px;
-  }
-
   .what-we-do-col {
     padding-left: 0px !important;
-  }
-
-  .who-are-we-img {
-    height: auto;
-    width: 300px;
-
   }
 
   .focus-area-img {
@@ -555,56 +569,4 @@ background: #F58229;
     width: 240px !important;
   }
 
-  .bg-pic-one {
-    background-image: url("img/Group 1.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 680px;
-    width: 1320px !important;
-  }
-
-  /* .focus-area-col-2 {
-    background-image: url("img/Frame 6.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 240px;
-    width: 240px !important;
-  }
-
-  .focus-area-col-3 {
-    background-image: url("img/Rectangle 7 (3).png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 240px;
-    width: 240px !important;
-  }
-
-  .focus-area-col-4 {
-    background-image: url("img/Frame 8.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 240px;
-    width: 240px !important;
-  }
-
-  .focus-area-col-5 {
-    background-image: url("img/Frame 9.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 240px;
-    width: 240px !important;
-  }
-
-  .focus-area-col-6 {
-    background-image: url("img/Frame 10.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 240px;
-    width: 240px !important;
-  } */
-
-  /* .fade-orange-box {
-    background-color: #f8ece2;
-    height: auto;
-  } */
 }

@@ -1,0 +1,48 @@
+.bg-pic-blog {
+  background-image: linear-gradient(#5a3101ad,#5a3101ad), url('img/Hero Image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  }
+
+  /* BADGE STYLING */
+.badge {
+  position: absolute;
+  margin-top: -50px !important;
+  z-index: 100;
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .bg-pic-blog {
+      background-image: linear-gradient(#5a3101ad,#5a3101ad), url('img/Hero Image.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 400px !important;
+      }
+
+      .badge {
+        position: absolute;
+        margin-top: -30px !important;
+        z-index: 100;
+      }
+}
+
+@media only screen and (max-width: 600px) {
+  .bg-pic-blog {
+    background-image: linear-gradient(#5a3101ad,#5a3101ad), url('img/Hero Image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 160px !important;
+    }
+
+/* BADGE STYLING */
+.badge {
+  position: absolute;
+  margin-top: -30px !important;
+  z-index: 100;
+  margin-left: 50px !important;
+}
+  }

@@ -1,0 +1,28 @@
+.bg-pic-contact-us {
+  background-image: linear-gradient(#6b433d41,#6b433d41), url('img/Hero Image (1).png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  }
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .bg-pic-contact-us {
+      background-image: linear-gradient(#6b433d41,#6b433d41), url('img/Hero Image (1).png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 400px !important;
+      }
+}
+
+@media only screen and (max-width: 600px) {
+  .bg-pic-contact-us {
+    background-image: linear-gradient(#6b433d41,#6b433d41), url('img/Hero Image (1).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px !important;
+    }
+
+  }
