@@ -596,6 +596,15 @@ background: #F58229;
     height: 240px !important;
     width: 240px !important;
   }
+
+  /* ineer blog page */
   
+  .circle {
+    background-color: orange;
+    border-radius: 100%;
+    border: 2px black solid;
+    height: 20px !important;
+    width: 20px !important;
+  }
 
 }

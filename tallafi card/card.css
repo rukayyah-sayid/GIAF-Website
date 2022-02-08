@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+    .main-img {
+      background-image: linear-gradient(90.76deg, #000000c4 -43.04%, rgba(0, 0, 0, 0) 86.09%), url('Rectangle 5.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      border-radius:  12px 12px 0px 0px;
+      height: 216px;
+      width: 365px;
+    }
+
+    /* FONT STYLING */
+
+    .font-12 {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 12px;
+    }
+
+    .font-14 {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 14px;
+    }
+
+    .font-15 {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 15px;
+    }
+
+    .font-16 {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 16px;
+    }
+
+    .font-20 {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 20px;
+    }
+
+    /* COLOR */
+    .orange-color {
+      background: #F9AF4C;
+    }
+
+    /* PROGRESS BAR STYLING */
+    .progress {
+      width: 300px;
+      height: 8px;
+    }
+
+    /* BUTTON STYLING */
+    .donate-btn {
+      border-radius: 34px;
+    }
+
+    /* BADGE STYLING */
+    .badge {
+      position: absolute;
+      border-radius: 130px;
+      z-index: 100;
+      color: black;
+    }
+
+    /* ANCHOR TAG */
+    a {
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: none;
+      color: black;
+    }
+
+    .rounded {
+      border-radius: 0px 0px 12px 12px !important;
+    }
+
+    .card-container {
+      box-shadow: 0px 5px 11px 1px rgba(196, 196, 196, 0.5) !important; 
+      width: 366px;
+    }

@@ -1,0 +1,11 @@
+.circle {
+  background-color: orange;
+  border-radius: 100%;
+  border: 2px black solid;
+  height: 50px;
+  width: 50px;
+}
+
+.inner-blog-page-img {
+  border-radius: 3%;
+}
